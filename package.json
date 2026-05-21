@@ -1,0 +1,12 @@
+{
+  "name": "discord-bot-vercel",
+  "version": "1.0.0",
+  "description": "Bot de Discord con slash commands en Vercel",
+  "main": "index.js",
+  "scripts": {
+    "register": "node register-commands.js"
+  },
+  "dependencies": {
+    "discord-interactions": "^3.4.0"
+  }
+}
